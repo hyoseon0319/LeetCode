@@ -8,7 +8,7 @@ class Solution:
         
         prev = None
         curr = head
-        
+        tmp = ListNode()
         
         while curr != None:
             tmp = curr.next
